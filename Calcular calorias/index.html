@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">  
+    <title>Calorias Gastas  </title>
+    
+
+</head>
+<body>
+    <div id="fundo" class="conteiner">
+
+        <header id="header" class="container">
+            <div class="container"  id="hd">
+            <h1 id="h1"> Calcular calorias</h1>   
+         
+            </div>
+        </header>
+        <div class="container" id="dados">
+
+
+    <button id="preto" onclick="escuro()">Escuro</button>
+    <button id="branco" onclick="claro()">Claro</button>
+        <div id="pagina">
+
+            <h1>Quantas calorias eu gasto diáriamente?</h1>
+            <p id="txt"><bold>Você esta satisfeito com seu corpo? Tem a intenção de perder ou ganhar peso?</bold><br>
+                Buscando facilitar o seu entendimento e ajudando nos resultados, criamos essa ferramenta simples <br>
+                que vai mostrar o seu TMB(Taxa Metabolica Basal). <br>
+                Em outras palavras, TMB entende-se como, número de calorias gasto diariamente, sem exercer nenhuma atividade física.</p>
+                    <input id="peso" name="quilograma" type="number" placeholder="Peso em Kg"><br>
+                    <input id="altura" name="centimetros" type="number" placeholder="Altura em cm"><br>
+                    <input id="idade" name="anos" type="number" placeholder="Sua idade">
+                </div> 
+                <button id="calc" onclick="calcular()">Calcular</button>
+                <div id="saida">
+
+
+                </div>
+
+                </div>
+                <footer>
+                    <div id="conteiner">
+                        <h2><bold>Desenvolvido por Renan Ramos</bold></h2>
+                    </div>
+                </footer>
+            </div>
+            <script src="scripts.js"></script>
+</body>
+</html>
